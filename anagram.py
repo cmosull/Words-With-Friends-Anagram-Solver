@@ -1,4 +1,3 @@
-
 def CheckDict(anagram):
 
     lines = open('enable1.txt','r').read().split('\n')
