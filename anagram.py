@@ -11,6 +11,8 @@ def CheckDict(anagram):
         lengthline = len(line)
         if (lengthline < anagramlength):
             checklength = lengthline
+        elif (lengthline > anagramlength):
+            continue
         else:
             checklength = anagramlength
 
